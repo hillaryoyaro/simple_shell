@@ -62,7 +62,7 @@ char *_strstr(char *haystack, char *needle)
 /**
  * _strlen - a function that returns the length of a string
  * @s: char input
- * Return: length of the input string
+ * Return: length of the input strings
  */
 int _strlen(char *s)
 {

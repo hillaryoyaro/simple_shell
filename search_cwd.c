@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * search_cwd - look for current working dir
+ * search_cwd - looks for current working dir
  * @filename: file name
  * Return: current working dir
  */
@@ -42,3 +42,4 @@ char *search_cwd(char *filename, char *er)
 	closedir(dir);
 	return (er);
 }
+

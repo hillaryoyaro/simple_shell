@@ -16,7 +16,7 @@
 extern char **environ;
 /**
  * struct builtins - Has builtins and associated funcs
- * @arg: Builtins name
+ * @arg: Builtins names
  * @builtin: Mathcing builtin func
  */
 typedef struct builtins
