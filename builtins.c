@@ -2,7 +2,7 @@
 
 /**
  * exit_shell - This will run the builtin exit
- * @line: Line buffer of user input
+ * @line: Line buffer of user input data
  * @args: Arguments from user
  * @env: Environment
  * Return: Void
