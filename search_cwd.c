@@ -2,7 +2,6 @@
 /**
  * search_cwd - look for current working dir
  * @filename: file name
- * @er: character we return if file is not executable
  * Return: current working dir
  */
 char *search_cwd(char *filename, char *er)
@@ -33,10 +32,10 @@ char *search_cwd(char *filename, char *er)
 				strcpy(ret, "./");
 				strcat(ret, filename);
 				closedir(dir);
-				if ((access(ret, X_OK)))
-					write(2, er, 5);
-				else
+				if (!(access(ret, X_OK)))
 					return (ret);
+				else
+					write(2, er, 5);
 			}
 		}
 	}
