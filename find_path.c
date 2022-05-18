@@ -76,7 +76,7 @@ char *read_dir(char *er, struct dirent *s, char *fil, int l, char *fp, char *t)
 }
 /**
  *save_path - saves a copy of the PATH string
- *@tmp: copy to be made of PATH
+ *@tmp: copy be made of PATH
  *@path: string containing original PATH value
  *
  *Return: success - tmp first time, path every other time, else error

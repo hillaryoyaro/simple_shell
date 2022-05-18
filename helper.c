@@ -106,7 +106,7 @@ int launch_prog(char **args)
 	return (1);
 }
 /**
- * builtins_checker - Checks for builtins
+ * builtins_checker-Checks for builtins
  * @args: Arguments passed from prompt
  * Return: 1 if builtins exist, 0 if they don't
  */
@@ -125,4 +125,4 @@ int builtins_checker(char **args)
 			return (1);
 	}
 	return (0);
-}
+}i

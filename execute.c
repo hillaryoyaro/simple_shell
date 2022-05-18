@@ -2,7 +2,7 @@
 
 /**
  * execute_prog - Executes binary or builtin
- * @args: Argument buffer
+ * @args: Arguments buffer
  * @line: Line buffer
  * @env: Environment
  * @flow: Helps decide what code to run
