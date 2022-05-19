@@ -66,7 +66,7 @@ char *_getline(void);
 
 /** ###### Command parser and extractor ###*/
 
-int path_cmd(char **line);
+int cmd_path(char **line);
 char *_getenv(char *name);
 char **parse_cmd(char *cmd);
 int handle_builtin(char **cmd, int er);
