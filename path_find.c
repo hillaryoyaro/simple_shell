@@ -5,7 +5,7 @@
  * @cmd: Parsed Input
  * Return: 1  Failure  0  Success.
  */
-int path_cmd(char **cmd)
+int cmd_path(char **cmd)
 {
 	char *path, *value, *cmd_path;
 	struct stat buf;
