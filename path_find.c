@@ -5,7 +5,7 @@
  * @cmd: Parsed Input
  * Return: 1  Failure  0  Success.
  */
-int cmd_path(char **cmd)
+/**int cmd_path(char **cmd)
 {
 	char *path, *value, *cmd_path;
 	struct stat buf;
@@ -28,7 +28,7 @@ int cmd_path(char **cmd)
 	free(path);
 
 	return (1);
-}
+}**/
 /**
  * build - Build Command
  * @token: Excutable Command
