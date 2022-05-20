@@ -27,11 +27,12 @@ int main(__attribute__((unused)) int argc, char **argv)
 		}
 		history(input);
 		cmd = parse_cmd(input);
-		if (_strcmp(cmd[0], "exit") == 0)
+		/*if (_strcmp(cmd[0], "exit") == 0)
 		{
 			exit_bul(cmd, input, argv, counter);
 		}
-		else if (check_builtin(cmd) == 0)
+		else*/
+	       	if (check_builtin(cmd) == 0)
 		{
 			st = handle_builtin(cmd, st);
 			free_all(cmd, input);
